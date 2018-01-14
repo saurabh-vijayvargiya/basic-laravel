@@ -13,4 +13,7 @@
 
 Route::get('/', 'PagesController@home');
 Route::get('about', 'PagesController@about');
-Route::get('blog', 'BlogsController@blog');
+Route::get('new-blog', 'BlogsController@createBlog');
+Route::post('blog', 'BlogsController@newBlog');
+Route::get('blog', 'BlogsController@allBlogs');
+Route::get('blog/{id}', 'BlogsController@showBlog');

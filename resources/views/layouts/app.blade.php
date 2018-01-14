@@ -6,7 +6,10 @@
 <body>
 <div class="container">
     @include('inc.nav')
-    @include('inc.carousal')
+    @if(!Request::is('blog'))
+        @include('inc.carousal')
+    @endif
+    @include('inc.messages')
     <div class="row">
         <div class="col-md-8 col-lg-8">
             @yield('content')
