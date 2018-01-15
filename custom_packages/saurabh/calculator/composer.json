@@ -1,0 +1,13 @@
+{
+    "name": "saurabh/calculator",
+    "description": "This is custom package for laravel that do addition and substraction.",
+    "type": "Custom",
+    "authors": [
+        {
+            "name": "Saurabh Vijayvargiya",
+            "email": "svijayvargiya@acromediainc.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

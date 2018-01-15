@@ -24,7 +24,8 @@
             "database/factories"
         ],
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "Saurabh\\Calculator\\": "custom_packages/saurabh/calculator/src"
         }
     },
     "autoload-dev": {

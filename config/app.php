@@ -182,6 +182,11 @@ return [
        */
         Collective\Html\HtmlServiceProvider::class,
 
+      /*
+       * Custom service providers.
+       */
+        Saurabh\Calculator\CalculatorServiceProvider::class,
+
     ],
 
     /*
